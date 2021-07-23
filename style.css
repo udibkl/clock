@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.container
+{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    padding-top: 223px;
+    font-size: 25px;
+}
+
+.text
+{
+    display: grid;
+    grid-column: 1;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+
+@media (min-width:300px) and (max-width:900px)
+{
+
+    .container
+    {
+        
+        padding-top: 145px;
+        font-size: 20px;
+    }
+
+
+}
