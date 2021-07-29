@@ -1,8 +1,36 @@
-*{
+.theme
+{
     background-color: black;
     color: white;
+    
+
+	transition-duration: 500ms;
+}
+.sun
+{
+    width: 30px;
+   
+    
 }
 
+.icon
+{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.theme.light
+{
+    background-color: white;
+    color: black;
+    transition-duration: 500ms;
+  
+    
+    
+}
+ 
 .container
 {
     display:grid;
@@ -13,10 +41,14 @@
     align-items: center;
     padding-top: 223px;
     font-size: 25px;
+	
 }
+
 
 .text
 {
+   
+    
     display: grid;
     grid-column: 1;
     justify-content: center;
