@@ -9,4 +9,11 @@ elem.innerHTML="<h1>Date and Time is <br></h1>"+date+"<br>"+time;
 
 }, 1000);
 
-
+light=document.getElementById('light');
+light.addEventListener('click',()=>
+{
+    document.body.classList.toggle('light');
+   
+   
+    
+})
