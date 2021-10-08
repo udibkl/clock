@@ -1,34 +1,23 @@
 .theme
 {
-    background-color: black;
-    color: white;
-    
-
-	transition-duration: 500ms;
+    background-color: #161616;
+    color: #f1f1f1;
+	transition-duration: 550ms;
 }
 .sun
 {
     width: 30px;
-   
-    
 }
-
 .icon
 {
     display: flex;
     justify-content: flex-end;
-    
 }
-
-
 .theme.light
 {
-    background-color: white;
-    color: black;
-    transition-duration: 500ms;
-  
-    
-    
+    background-color: #f1f1f1;
+    color: #161616;
+    transition-duration: 550ms;
 }
  
 .container
@@ -41,14 +30,11 @@
     align-items: center;
     padding-top: 223px;
     font-size: 25px;
-	
 }
 
 
 .text
 {
-   
-    
     display: grid;
     grid-column: 1;
     justify-content: center;
@@ -59,13 +45,10 @@
 
 @media (min-width:300px) and (max-width:900px)
 {
-
     .container
     {
         
         padding-top: 145px;
         font-size: 20px;
     }
-
-
 }
