@@ -1,7 +1,10 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
 .theme
 {
-    background-color: #161616;
-    color: #f1f1f1;
+    background-color: #FFF600;
+    color: #FFF600;
 	transition-duration: 550ms;
 }
 .sun
@@ -25,11 +28,10 @@
     display:grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    font-family: 'Courier New', Courier, monospace;
     justify-content: center;
     align-items: center;
-    padding-top: 223px;
-    font-size: 25px;
+    padding-top: 240px;
+    font-size: 28px;
 }
 
 
