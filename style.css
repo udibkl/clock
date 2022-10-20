@@ -11,11 +11,7 @@
 {
     width: 30px;
 }
-.icon
-{
-    display: flex;
-    justify-content: flex-end;
-}
+
 .theme.light
 {
     background-color: #f1f1f1;
@@ -42,6 +38,44 @@
     justify-content: center;
     align-self: center;
     text-align: center;
+}
+
+
+.shadowBtn{
+    width: 120px;
+    height: 60px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.shadowBtn:hover{
+    background-color: #0000004f;
+    color: #000000;
+    transition: 1s ease;
+}
+
+.shadowBtn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:50px;
+    background: transparent;
+    height:50%;
+    width:100%;
+    transform: perspective(1cm);
+    rotate: (40deg) scale(1, 0.35);
+    filter: blur(8px);
+    transition: 1s ease;
+
+}
+
+.shadowBtn:hover::before{
+    background: rgba(0, 0, 0, 0.356);
+    top: 70px;
 }
 
 
