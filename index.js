@@ -1,4 +1,5 @@
 setInterval(() => {
+    let a;
     let dat= new Date;
     elem=document.getElementById('text');
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
