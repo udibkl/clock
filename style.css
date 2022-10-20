@@ -45,6 +45,44 @@
 }
 
 
+.shadowBtn{
+    width: 120px;
+    height: 60px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.shadowBtn:hover{
+    background-color: #f719094f;
+    color: #000000;
+    transition: 1s ease;
+}
+
+.shadowBtn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:50px;
+    background: transparent;
+    height:50%;
+    width:100%;
+    transform: perspective(1cm);
+    rotate: (40deg) scale(1, 0.35);
+    filter: blur(8px);
+    transition: 1s ease;
+
+}
+
+.shadowBtn:hover::before{
+    background: rgba(241, 11, 11, 0.356);
+    top: 70px;
+}
+
+
 @media (min-width:300px) and (max-width:900px)
 {
     .container
