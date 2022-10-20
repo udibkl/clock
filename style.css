@@ -11,11 +11,7 @@
 {
     width: 30px;
 }
-.icon
-{
-    display: flex;
-    justify-content: flex-end;
-}
+
 .theme.light
 {
     background-color: #f1f1f1;
@@ -57,7 +53,7 @@
 }
 
 .shadowBtn:hover{
-    background-color: #f719094f;
+    background-color: #0000004f;
     color: #000000;
     transition: 1s ease;
 }
@@ -78,7 +74,7 @@
 }
 
 .shadowBtn:hover::before{
-    background: rgba(241, 11, 11, 0.356);
+    background: rgba(0, 0, 0, 0.356);
     top: 70px;
 }
 
