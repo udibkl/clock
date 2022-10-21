@@ -40,7 +40,6 @@
     text-align: center;
 }
 
-
 .shadowBtn{
     width: 120px;
     height: 61px;
@@ -70,7 +69,6 @@
     rotate: (40deg) scale(1, 0.35);
     filter: blur(8px);
     transition: 1s ease;
-
 }
 
 .shadowBtn:hover::before{
