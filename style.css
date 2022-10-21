@@ -3,7 +3,9 @@
 }
 .theme
 {
-    background-color: #FFF600;
+    background: linear-gradient(-45deg,#FFF600, #f0ec7c, #fff700);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
     color: #070702;
 	transition-duration: 550ms;
 }
@@ -13,8 +15,9 @@
 }
 
 .theme.light
-{
-    background-color: #f1f1f1;
+{  background: linear-gradient(-45deg, #f1f1f1, #bbbbbb, #ddd);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     color: #161616;
     transition-duration: 550ms;
 }
@@ -87,4 +90,16 @@
         padding-top: 145px;
         font-size: 20px;
     }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
